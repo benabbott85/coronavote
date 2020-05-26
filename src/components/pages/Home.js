@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, Label, Input, Button, Jumbotron } from "reactstrap";
 
 
 function Home (){
@@ -10,18 +10,20 @@ function Home (){
         //     <p className="if"> Please sign in if you have already created an account otherwise click on the signup button and follow the prompts</p>
         // </div>
         <Container>
+            <Jumbotron>
         <Row>
         <h1 className="weclome"> Welcome to CoronaVote! The only way to vote during this pandemic</h1>
         </Row>
         <Row>
             <p className="if">Please sign in if you have already created an account otherwise click on the signup button and create an account</p>
         </Row>
+        </Jumbotron>
         <h2>Sign In:</h2>
         <Row>
-           
+           <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn" hidden> Sign In:</Label>
+                    <Label for = "signIn"> Username:</Label>
                     <Input
                      type="text"
                      name="username"
@@ -42,11 +44,20 @@ function Home (){
                     </Input>
                 </FormGroup>
             </Form>
+            </Col>
+            <Col md={6}></Col>
+
+            <Col md={3}>
+                <div>
+                    <p>Hopefully this works better than the Iowa Caucuses</p>
+                </div>
+            </Col>
         </Row>
         <Row>
+            <Col md={3}>
         <Form>
                 <FormGroup>
-                    <Label for = "signIn" hidden> Sign In:</Label>
+                    <Label for = "signIn" > Password:</Label>
                     <Input
                      type="text"
                      name="password"
@@ -69,6 +80,7 @@ function Home (){
                 <Button id="signin">Sign In</Button>
                 <Button id="signup">Sign Up</Button>
             </Form>
+            </Col>
         </Row>
         </Container>
     )
