@@ -292,8 +292,24 @@ function Signup () {
             </Col>
 
         </Row>
-
-
+        <Row>
+            <Col md={3}>
+                <Form>
+                    <FormGroup>
+                        <Label for ="dob">Date of Birth:</Label>
+                        <Input
+                        type="text"
+                        name="dob"
+                        id= "dob"
+                        placeholder="MM/DD/YYYY"
+                        ></Input>
+                    </FormGroup>
+                </Form>
+            </Col>
+        </Row>
+    <Row>
+    <Link to="/Verify"><Button id="submit">Submit</Button></Link>
+    </Row>
        </Container>
     )
 }
