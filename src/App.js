@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import { Container, Row, Col } from "reactstrap"
+// import { Container, Row, Col } from "reactstrap"
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Signout from "./components/pages/Signout";

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button, Jumbotron } from "reactstrap";
+import { Link } from "react-router-dom";
 
 
 function Home (){
@@ -78,7 +79,7 @@ function Home (){
                     </Input>
                 </FormGroup>
                 <Button id="signin">Sign In</Button>
-                <Button id="signup">Sign Up</Button>
+                <Link to="/Signup"><Button id="signup">Sign Up</Button></Link>
             </Form>
             </Col>
         </Row>
