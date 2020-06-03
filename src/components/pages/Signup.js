@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
+// import Styles from "../../styles.css"
 
 
 function Signup () {
@@ -72,7 +73,7 @@ function Signup () {
                 <FormGroup>
                     <Label for = "signIn" > Password:</Label>
                     <Input
-                     type="text"
+                     type="password"
                      name="password"
                      id="password"
                      placeholder="Password" 
@@ -99,7 +100,7 @@ function Signup () {
                 <FormGroup>
                     <Label for = "signIn" > Confrim Password:</Label>
                     <Input
-                     type="text"
+                     type="password"
                      name="password"
                      id="password"
                      placeholder=" Confirm Password" 
@@ -179,10 +180,10 @@ function Signup () {
                     <FormGroup>
                         <Label for ="signIn">SSN:</Label>
                         <Input
-                        type="text"
+                        type="password"
                         name="ssn"
                         id="ssn"
-                        placeholder="SSN"
+                        placeholder="XXX-XX-XXXX"
                         >
 
                         </Input>
@@ -194,10 +195,10 @@ function Signup () {
                     <FormGroup>
                         <Label for ="signIn">Confirm SSN:</Label>
                         <Input
-                        type="text"
+                        type="password"
                         name="confirmssn"
                         id="confirmssn"
-                        placeholder="confirm SSN"
+                        placeholder="XXX-XX-XXXX"
                         >
 
                         </Input>
@@ -241,7 +242,7 @@ function Signup () {
                      type="text"
                      name="city"
                      id="city"
-                     placeholder="city" 
+                     placeholder="City" 
                     >
                     {/* <Input
                     type="text"
@@ -265,11 +266,62 @@ function Signup () {
                     <FormGroup>
                         <Label for ="signIn">State:</Label>
                         <Input
-                        type="text"
-                        name="state"
-                        id="state"
+                        type="select" name="select" id="stateSelect"
+                        // name="state"
+                        // id="state"
                         placeholder="State"
                         >
+                            <option>Select</option>
+                            <option>AL</option>
+                            <option>AK</option>
+                            <option>AZ</option>
+                            <option>AR</option>
+                            <option>CA</option>
+                            <option>CO</option>
+                            <option>CT</option>
+                            <option>DE</option>
+                            <option>FL</option>
+                            <option>GA</option>
+                            <option>HI</option>
+                            <option>ID</option>
+                            <option>IL</option>
+                            <option>IN</option>
+                            <option>IA</option>
+                            <option>KS</option>
+                            <option>KY</option>
+                            <option>LA</option>
+                            <option>ME</option>
+                            <option>MD</option>
+                            <option>MA</option>
+                            <option>MI</option>
+                            <option>MN</option>
+                            <option>MS</option>
+                            <option>MO</option>
+                            <option>MT</option>
+                            <option>NE</option>
+                            <option>NV</option>
+                            <option>NH</option>
+                            <option>NJ</option>
+                            <option>NM</option>
+                            <option>NY</option>
+                            <option>NC</option>
+                            <option>ND</option>
+                            <option>OH</option>
+                            <option>OK</option>
+                            <option>OR</option>
+                            <option>PA</option>
+                            <option>RI</option>
+                            <option>SC</option>
+                            <option>SD</option>
+                            <option>TN</option>
+                            <option>TX</option>
+                            <option>UT</option>
+                            <option>VT</option>
+                            <option>VA</option>
+                            <option>WA</option>
+                            <option>WV</option>
+                            <option>WI</option>
+                            <option>WY</option>
 
                         </Input>
                     </FormGroup>
@@ -303,6 +355,25 @@ function Signup () {
                         id= "dob"
                         placeholder="MM/DD/YYYY"
                         ></Input>
+                    </FormGroup>
+                </Form>
+            </Col>
+            <Col md={3}>
+                <Form>
+                    <FormGroup>
+                        <Label for ="dob">Political Party:</Label>
+                        <Input
+                        type="select" name="select" id="partySelect"
+                        // name="dob"
+                        // id= "dob"
+                        placeholder="Party Choice"
+                        >
+                            <option>Select</option>
+                            <option>Democrat</option>
+                            <option>Republican</option>
+                            <option>Libertarian</option>
+                            <option>Green Party</option>
+                        </Input>
                     </FormGroup>
                 </Form>
             </Col>
