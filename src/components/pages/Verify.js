@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 function Verify (){
     return (
         <Container>
+
+            <br></br>
             <Row>
                 <h1>Please Verify That All Information Below is Correct</h1>
             </Row>
@@ -58,6 +60,7 @@ function Verify (){
                     <p className="verParty">Political Party:</p>
                 </Col>
             </Row>
+            <br></br>
             <Link to="/Home"><Button>Verify:</Button></Link>
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button, Jumbotron } from "reactstrap";
 import { Link } from "react-router-dom";
+// import "../../style.css"
 
 
 function Home (){
@@ -29,7 +30,7 @@ function Home (){
                      type="text"
                      name="username"
                      id="userrname"
-                     placeholder="username" 
+                     placeholder="Username" 
                     >
                     {/* <Input
                     type="text"
@@ -49,9 +50,9 @@ function Home (){
             <Col md={6}></Col>
 
             <Col md={3}>
-                <div>
+                {/* <div>
                     <p>Hopefully this works better than the Iowa Caucuses</p>
-                </div>
+                </div> */}
             </Col>
         </Row>
         <Row>
@@ -63,7 +64,7 @@ function Home (){
                      type="text"
                      name="password"
                      id="password"
-                     placeholder="password" 
+                     placeholder="Password" 
                     >
                     {/* <Input
                     type="text"
@@ -78,6 +79,7 @@ function Home (){
                    
                     </Input>
                 </FormGroup>
+
                 <Button id="signin">Sign In</Button>
                 <Link to="/Signup"><Button id="signup">Sign Up</Button></Link>
             </Form>

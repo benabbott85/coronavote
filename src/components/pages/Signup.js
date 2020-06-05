@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, FormText, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 // import Styles from "../../styles.css"
 
@@ -19,6 +19,7 @@ function Signup () {
                      id="userrname"
                      placeholder="Username" 
                     >
+                       
                     {/* <Input
                     type="text"
                     name="password"
@@ -31,6 +32,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
+                    <FormText>Please use Email Address</FormText>
                 </FormGroup>
             </Form>
             </Col>
@@ -56,6 +58,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
+                    <FormText>Please use Email Address</FormText>
                 </FormGroup>
             </Form>
 
@@ -90,6 +93,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
+                    <FormText>Password must have one uppercase, one lowercase, and one number</FormText>
                 </FormGroup>
                 {/* <Button id="signin">Sign In</Button>
                 <Link to="/Signup"><Button id="signup">Sign Up</Button></Link> */}
@@ -117,6 +121,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
+                    <FormText>Password must have one uppercase, one lowercase, and one number</FormText>
                 </FormGroup>
             
             </Form>
