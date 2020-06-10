@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button, Jumbotron } from "reactstrap";
 import { Link } from "react-router-dom";
 // import "../../style.css"
+import { AuthProvider } from "react-use-auth"
 
 
 function Home (){
+    
     return (
         // <div>
         //     <h1 className="welcome">Welcome to CoronaVote! The only way to vote during this pandemic</h1>
@@ -86,6 +88,7 @@ function Home (){
             </Col>
         </Row>
         </Container>
+        
     )
 }
 

@@ -13,6 +13,8 @@ function Verify (){
                 <h1>Please Verify That All Information Below is Correct</h1>
             </Row>
             <br></br>
+            <br></br>
+            <br></br>
             <Row>
                 <Col md={3}>
                     <p className="verUser">Username: </p>
