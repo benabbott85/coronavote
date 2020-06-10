@@ -1,0 +1,66 @@
+.welcome{
+    color: white;
+text-align: center
+}
+.if{
+    font-weight: bold;
+    color: white;
+   margin-left: 150px
+}
+
+body {
+    background-image: url("https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg");
+}
+.homesign{
+    color: white
+}
+
+.verheader{
+    color: white;
+    margin-left: 80px
+}
+
+.verUser{
+    color: white
+}
+
+.verPass{
+    color: white
+}
+
+.verFName{
+    color: white
+}
+
+.verLName{
+    color: white
+}
+
+.verStreet{
+    color: white
+}
+
+.verCity{
+    color: white
+}
+
+.verState{
+    color: white
+}
+
+.verZip{
+    color: white
+}
+
+.verSSN{
+    color: white
+}
+
+.verDOB{
+    color: white
+}
+
+.verParty{
+    color: white
+}
+

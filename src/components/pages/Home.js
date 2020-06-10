@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Form, FormGroup, Label, Input, Button, Jumbotron } from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
-// import "../../style.css"
-import { AuthProvider } from "react-use-auth"
+import "../../style.css"
+// import { AuthProvider } from "react-use-auth"
 
 
 function Home (){
@@ -14,24 +14,25 @@ function Home (){
         //     <p className="if"> Please sign in if you have already created an account otherwise click on the signup button and follow the prompts</p>
         // </div>
         <Container>
-            <Jumbotron>
+            {/* <Jumbotron className="jumbo"> */}
         <Row>
-        <h1 className="weclome"> Welcome to CoronaVote! The only way to vote during this pandemic</h1>
+        <h1 className="welcome"> Welcome to CoronaVote! The only way to vote during this pandemic</h1>
         </Row>
+        <br></br>
         <Row>
             <p className="if">Please sign in if you have already created an account otherwise click on the signup button and create an account</p>
         </Row>
-        </Jumbotron>
-        <h2>Sign In:</h2>
+        {/* </Jumbotron> */}
+        <h2 className="homesign">Sign In:</h2>
         <Row>
            <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> Username:</Label>
+                    <Label for = "signIn" className="verUser"> Username:</Label>
                     <Input
                      type="text"
                      name="username"
-                     id="userrname"
+                     id="username"
                      placeholder="Username" 
                     >
                     {/* <Input
@@ -61,9 +62,9 @@ function Home (){
             <Col md={3}>
         <Form>
                 <FormGroup>
-                    <Label for = "signIn" > Password:</Label>
+                    <Label for = "signIn" className="verUser"> Password:</Label>
                     <Input
-                     type="text"
+                     type="password"
                      name="password"
                      id="password"
                      placeholder="Password" 
@@ -82,8 +83,8 @@ function Home (){
                     </Input>
                 </FormGroup>
 
-                <Button id="signin">Sign In</Button>
-                <Link to="/Signup"><Button id="signup">Sign Up</Button></Link>
+                <Link to="/Profile"> <Button color="primary" id="signin">Sign In</Button></Link>
+                <Link to="/Signup"><Button color="primary"id="signup">Sign Up</Button></Link>
             </Form>
             </Col>
         </Row>

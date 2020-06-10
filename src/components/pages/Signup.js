@@ -12,11 +12,11 @@ function Signup () {
            <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> Username:</Label>
+                    <Label for = "signIn" className="verUser"> Username:</Label>
                     <Input
                      type="text"
                      name="username"
-                     id="userrname"
+                     id="username"
                      placeholder="Username" 
                     >
                        
@@ -32,14 +32,14 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
-                    <FormText>Please use Email Address</FormText>
+                    <FormText >Please use Email Address</FormText>
                 </FormGroup>
             </Form>
             </Col>
             <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> Confirm Username:</Label>
+                    <Label for = "signIn" classAnme="verUser"> Confirm Username:</Label>
                     <Input
                      type="text"
                      name="username"
@@ -58,7 +58,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
-                    <FormText>Please use Email Address</FormText>
+                    <FormText >Please use Email Address</FormText>
                 </FormGroup>
             </Form>
 
@@ -74,7 +74,7 @@ function Signup () {
             <Col md={3}>
         <Form>
                 <FormGroup>
-                    <Label for = "signIn" > Password:</Label>
+                    <Label for = "signIn" className="verUser"> Password:</Label>
                     <Input
                      type="password"
                      name="password"
@@ -93,7 +93,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
-                    <FormText>Password must have one uppercase, one lowercase, and one number</FormText>
+                    <FormText >Password must have one uppercase, one lowercase, and one number</FormText>
                 </FormGroup>
                 {/* <Button id="signin">Sign In</Button>
                 <Link to="/Signup"><Button id="signup">Sign Up</Button></Link> */}
@@ -102,7 +102,7 @@ function Signup () {
             <Col md={3}>
         <Form>
                 <FormGroup>
-                    <Label for = "signIn" > Confrim Password:</Label>
+                    <Label for = "signIn" className="verUser"> Confrim Password:</Label>
                     <Input
                      type="password"
                      name="password"
@@ -121,7 +121,7 @@ function Signup () {
                     </Input> */}
                    
                     </Input>
-                    <FormText>Password must have one uppercase, one lowercase, and one number</FormText>
+                    <FormText >Password must have one uppercase, one lowercase, and one number</FormText>
                 </FormGroup>
             
             </Form>
@@ -131,7 +131,7 @@ function Signup () {
            <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> First Name:</Label>
+                    <Label for = "signIn" className="verUser"> First Name:</Label>
                     <Input
                      type="text"
                      name="firstname"
@@ -156,7 +156,7 @@ function Signup () {
             <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> Last Name:</Label>
+                    <Label for = "signIn" className="verUser"> Last Name:</Label>
                     <Input
                      type="text"
                      name="lastname"
@@ -183,7 +183,7 @@ function Signup () {
             <Col md={3}>
                 <Form>
                     <FormGroup>
-                        <Label for ="signIn">SSN:</Label>
+                        <Label for ="signIn" className="verUser">SSN:</Label>
                         <Input
                         type="password"
                         name="ssn"
@@ -198,7 +198,7 @@ function Signup () {
             <Col md={3}>
                 <Form>
                     <FormGroup>
-                        <Label for ="signIn">Confirm SSN:</Label>
+                        <Label for ="signIn" className="verUser">Confirm SSN:</Label>
                         <Input
                         type="password"
                         name="confirmssn"
@@ -217,7 +217,7 @@ function Signup () {
            <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> Street Address:</Label>
+                    <Label for = "signIn" className="verUser"> Street Address:</Label>
                     <Input
                      type="text"
                      name="streetaddress"
@@ -242,7 +242,7 @@ function Signup () {
             <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn"> City:</Label>
+                    <Label for = "signIn" className="verUser"> City:</Label>
                     <Input
                      type="text"
                      name="city"
@@ -269,7 +269,7 @@ function Signup () {
             <Col md={3}>
                 <Form>
                     <FormGroup>
-                        <Label for ="signIn">State:</Label>
+                        <Label for ="signIn" className="verUser">State:</Label>
                         <Input
                         type="select" name="select" id="stateSelect"
                         // name="state"
@@ -335,7 +335,7 @@ function Signup () {
             <Col md={3}>
                 <Form>
                     <FormGroup>
-                        <Label for ="signIn">Zip Code:</Label>
+                        <Label for ="signIn" className="verUser">Zip Code:</Label>
                         <Input
                         type="text"
                         name="zipcode"
@@ -353,7 +353,7 @@ function Signup () {
             <Col md={3}>
                 <Form>
                     <FormGroup>
-                        <Label for ="dob">Date of Birth:</Label>
+                        <Label for ="dob" className="verUser">Date of Birth:</Label>
                         <Input
                         type="text"
                         name="dob"
@@ -366,7 +366,7 @@ function Signup () {
             <Col md={3}>
                 <Form>
                     <FormGroup>
-                        <Label for ="dob">Political Party:</Label>
+                        <Label for ="party" className="verUser">Political Party:</Label>
                         <Input
                         type="select" name="select" id="partySelect"
                         // name="dob"

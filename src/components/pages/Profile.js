@@ -54,6 +54,10 @@ function Profile (){
                     National Elections:
                 </Col>
             </Row>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Button color="primary">Lets Vote!</Button>
 
          </Container>
     )

@@ -10,7 +10,7 @@ function Verify (){
 
             <br></br>
             <Row>
-                <h1>Please Verify That All Information Below is Correct</h1>
+                <h1 className="verheader">Please Verify That All Information Below is Correct</h1>
             </Row>
             <br></br>
             <br></br>
@@ -63,7 +63,7 @@ function Verify (){
                 </Col>
             </Row>
             <br></br>
-            <Link to="/Home"><Button>Verify:</Button></Link>
+            <Link to="/Home"><Button color="primary">Verify:</Button></Link>
 
 
         </Container>
