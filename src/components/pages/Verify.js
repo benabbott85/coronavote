@@ -15,6 +15,7 @@ function Verify (){
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
             <Row>
                 <Col md={3}>
                     <p className="verUser">Username: </p>
@@ -62,6 +63,7 @@ function Verify (){
                     <p className="verParty">Political Party:</p>
                 </Col>
             </Row>
+            <br></br>
             <br></br>
             <Link to="/Home"><Button color="primary">Verify:</Button></Link>
 

@@ -39,11 +39,11 @@ function Signup () {
             <Col md={3}>
             <Form>
                 <FormGroup>
-                    <Label for = "signIn" classAnme="verUser"> Confirm Username:</Label>
+                    <Label for = "signIn" className="verUser"> Confirm Username:</Label>
                     <Input
                      type="text"
                      name="username"
-                     id="userrname"
+                     id="username"
                      placeholder=" Confirm Username" 
                     >
                     {/* <Input
@@ -102,7 +102,7 @@ function Signup () {
             <Col md={3}>
         <Form>
                 <FormGroup>
-                    <Label for = "signIn" className="verUser"> Confrim Password:</Label>
+                    <Label for = "signIn" className="verUser"> Confirm Password:</Label>
                     <Input
                      type="password"
                      name="password"
@@ -384,7 +384,7 @@ function Signup () {
             </Col>
         </Row>
     <Row>
-    <Link to="/Verify"><Button id="submit">Submit</Button></Link>
+    <Link to="/Verify"><Button color="primary" id="submit">Submit</Button></Link>
     </Row>
        </Container>
     )

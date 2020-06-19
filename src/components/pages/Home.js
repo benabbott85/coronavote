@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../style.css"
 // import { AuthProvider } from "react-use-auth"
@@ -14,7 +14,7 @@ function Home (){
         //     <p className="if"> Please sign in if you have already created an account otherwise click on the signup button and follow the prompts</p>
         // </div>
         <Container>
-            {/* <Jumbotron className="jumbo"> */}
+            <Jumbotron className="jumbo">
         <Row>
         <h1 className="welcome"> Welcome to CoronaVote! The only way to vote during this pandemic</h1>
         </Row>
@@ -22,7 +22,7 @@ function Home (){
         <Row>
             <p className="if">Please sign in if you have already created an account otherwise click on the signup button and create an account</p>
         </Row>
-        {/* </Jumbotron> */}
+        </Jumbotron>
         <h2 className="homesign">Sign In:</h2>
         <Row>
            <Col md={3}>
