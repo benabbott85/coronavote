@@ -22,54 +22,71 @@ body {
 }
 
 .verUser{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verPass{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verFName{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verLName{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verStreet{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verCity{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verState{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verZip{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verSSN{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verDOB{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .verParty{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .signup{
-    color: white
+    color: white;
+    font-weight: bold
 }
 
 .jumbo{
    background-image: url("https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"); 
+}
+
+.profilepic{
+    height: 100px;
+    width: 100px;
 }
 
