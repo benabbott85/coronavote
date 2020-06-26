@@ -16,7 +16,7 @@ function Home (){
         <Container>
             <Jumbotron className="jumbo">
         <Row>
-        <h1 className="welcome"> Welcome to CoronaVote! The only way to vote during this pandemic</h1>
+        <h1 className="welcome"> Welcome to VoteFromHome! The only way to vote in National, State and Local Level Elections from Home</h1>
         </Row>
         <br></br>
         <Row>
