@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+import Axios from "axios"
 import {
   Container,
   Card,
@@ -9,6 +10,27 @@ import {
   Button,
 } from "reactstrap";
 // import { Link } from "react-router-dom";
+
+class App extends Component {
+  state = {
+    selectedFile: null
+  }
+
+  onFileChange = event => {
+    this.setState({selectedFile: event.target.files[0] });
+  };
+
+  onFileUpload = () => {
+    const formData= new FormData();
+    formData.append(
+      "myFile",
+      this.state.selectedFile,
+      this.stateselectedFile.name
+    )
+    console.log(this.state.selectedFile);
+    Axios.post("/profile", formData);
+  }
+}
 
 function Profile() {
   return (
@@ -53,9 +75,11 @@ function Profile() {
       <br></br>
       <br></br>
       <Row>
-        <Col md={3} className="verUser">
-          Voting History:
-        </Col>
+        <Col md={3}className="verUser">Voting History</Col>
+      </Row>
+      <br></br>
+      <Row>
+        
         <Col md={3} className="verUser">
           Local/State Elections:
         </Col>
