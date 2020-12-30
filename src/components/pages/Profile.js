@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Axios from "axios"
+import React, {  } from "react";
+// import Axios from "axios"
 import {
   Container,
   Card,
@@ -11,26 +11,7 @@ import {
 } from "reactstrap";
 // import { Link } from "react-router-dom";
 
-class App extends Component {
-  state = {
-    selectedFile: null
-  }
 
-  onFileChange = event => {
-    this.setState({selectedFile: event.target.files[0] });
-  };
-
-  onFileUpload = () => {
-    const formData= new FormData();
-    formData.append(
-      "myFile",
-      this.state.selectedFile,
-      this.stateselectedFile.name
-    )
-    console.log(this.state.selectedFile);
-    Axios.post("/profile", formData);
-  }
-}
 
 function Profile() {
   return (
