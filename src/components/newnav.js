@@ -11,10 +11,12 @@ import { makeStyles } from "@material-ui/core/styles";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
 import { withRouter } from "react-router-dom";
+import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   drawer: {
-    width: "190px"
+    width: "190px",
+     
   }
 });
 
@@ -44,6 +46,7 @@ const Drawer = props => {
       }
   ];
   return (
+      <div className="newnav">
     <MUIDrawer variant="permanent" className={classes.drawer}>
       <List>
         {itemsList.map((item, index) => {
@@ -57,6 +60,7 @@ const Drawer = props => {
         })}
       </List>
     </MUIDrawer>
+    </div>
   );
 };
 
