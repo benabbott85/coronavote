@@ -7,14 +7,22 @@ import Home from "./components/pages/Home";
 import Signup from "./components/pages/Signup";
 import Verify from "./components/pages/Verify";
 import Profile from "./components/pages/Profile";
-import Newnav from "./components/newnav"
+import Newnav from "./components/newnav";
+import { makeStyles } from "@material-ui/core/styles";
 // import logo from './logo.svg';
 // import './App.css';
-
+const useStyles = makeStyles({
+  container: {
+    display: "flex",
+    
+  } 
+});
 function App() {
+  const classes = useStyles();
   return (
+    
    <Router>
-     <div>
+     <div className={classes.container}>
        {/* <NavTabs/> */}
        <Newnav/>
        <Switch>
@@ -25,6 +33,8 @@ function App() {
        </Switch>
      </div>
    </Router>
+   
+
   );
 }
 
