@@ -10,6 +10,9 @@ import {
 import { makeStyles } from "@material-ui/core/styles";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
+import HomeIcon from "@material-ui/icons/Home";
+import PersonIcon from "@material-ui/icons/Person";
+import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import { withRouter } from "react-router-dom";
 import { red } from "@material-ui/core/colors";
 
@@ -28,12 +31,12 @@ const Drawer = props => {
   const itemsList = [
     {
       text: "Home",
-      icon: <InboxIcon />,
+      icon: <HomeIcon />,
       onClick: () => history.push("/Home")
     },
     {
       text: "Profile",
-      icon: <MailIcon />,
+      icon: <PersonIcon />,
       onClick: () => history.push("/Profile")
     },
     {
@@ -43,7 +46,7 @@ const Drawer = props => {
     },
     {
         text: "Verify",
-        icon: <MailIcon />,
+        icon: <VerifiedUserIcon />,
         onClick: () => history.push("/Verify")
       }
   ];
