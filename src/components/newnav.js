@@ -8,17 +8,19 @@ import {
   ListItemText
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
+// import InboxIcon from "@material-ui/icons/MoveToInbox";
+// import MailIcon from "@material-ui/icons/Mail";
 import HomeIcon from "@material-ui/icons/Home";
 import PersonIcon from "@material-ui/icons/Person";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
+import GroupIcon from '@material-ui/icons/Group';
 import { withRouter } from "react-router-dom";
-import { red } from "@material-ui/core/colors";
+// import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   drawer: {
-    width: "190px",
+    width: "150px",
+   
    
      
   },
@@ -41,7 +43,7 @@ const Drawer = props => {
     },
     {
       text: "Signup",
-      icon: <MailIcon />,
+      icon: <GroupIcon />,
       onClick: () => history.push("/Signup")
     },
     {
