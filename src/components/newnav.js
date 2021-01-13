@@ -40,7 +40,7 @@ const Drawer = props => {
       onClick: () => history.push("/Profile")
     },
     {
-      text: "SignUp",
+      text: "Signup",
       icon: <MailIcon />,
       onClick: () => history.push("/Signup")
     },
