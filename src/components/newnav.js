@@ -42,7 +42,7 @@ const Drawer = props => {
       onClick: () => history.push("/Profile")
     },
     {
-      text: "Signup",
+      text: "Register",
       icon: <GroupIcon />,
       onClick: () => history.push("/Signup")
     },
