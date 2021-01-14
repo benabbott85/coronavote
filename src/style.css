@@ -23,7 +23,8 @@ body {
 
 .verUser{
     color: white;
-    font-weight: bold
+    font-weight: bold;
+    margin-left: 10px
 }
 
 .verPass{
@@ -92,4 +93,37 @@ body {
 .newnav{
     background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg") 
 }
+
+.form{
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    width: 300px;
+}
+#username{
+    width: 250px;
+    margin-left: 10px
+}
+#password{
+    width: 250px;
+    margin-left: 10px
+}
+
+.homesign{
+    margin-left: 10px
+}
+
+#signin{
+    margin-left: 10px
+}
+
+#register{
+    margin-left: 10px
+}
+
+#forgot{
+    margin-left:10px
+}
+
+
 

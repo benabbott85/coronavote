@@ -23,6 +23,7 @@ function Home (){
             <p className="if">Please sign in if you have already created an account otherwise click on the signup button and create an account</p>
         </Row>
         </Jumbotron>
+        < div className="form">
         <h2 className="homesign">Sign In:</h2>
         <Row>
            <Col md={3}>
@@ -60,7 +61,7 @@ function Home (){
         </Row>
         <Row>
             <Col md={3}>
-        <Form>
+        <Form >
                 <FormGroup>
                     <Label for = "signIn" className="verUser"> Password:</Label>
                     <Input
@@ -84,10 +85,15 @@ function Home (){
                 </FormGroup>
 
                 <Link to="/Profile"> <Button color="primary" id="signin">Sign In</Button></Link>
-                <Link to="/Signup"><Button color="primary"id="signup">Sign Up</Button></Link>
+                <br/>
+                <br/>
+                <Link to="/Signup"><p id="register">Register</p></Link>
+                <br/>
+                <Link to=""><p id="forgot">Forgot Password?</p></Link>
             </Form>
             </Col>
         </Row>
+        </div>
         </Container>
         
     )
