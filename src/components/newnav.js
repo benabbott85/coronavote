@@ -15,29 +15,22 @@ import PersonIcon from "@material-ui/icons/Person";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import GroupIcon from '@material-ui/icons/Group';
 import Typography from '@material-ui/core/Typography';
-
-// import { createMuiTheme } from '@material-ui/core/styles';
-
-import { withRouter, Link } from "react-router-dom";
+import { withRouter,Link } from "react-router-dom";
 // import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   drawer: {
     width: "150px",
+   
+   
      
   },
-  root: {
-    background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)"
-  }
   
 });
-
-
 
 const Drawer = props => {
   const { history } = props;
   const classes = useStyles();
-  
   const itemsList = [
     {
       text: "Home",
@@ -46,7 +39,7 @@ const Drawer = props => {
     },
     {
       text: "Profile",
-      icon: <PersonIcon  className="home"/>,
+      icon: <PersonIcon className="home"/>,
       onClick: () => history.push("/Profile")
     },
     {
@@ -64,9 +57,9 @@ const Drawer = props => {
       <div className="newnav">
         
     <MUIDrawer variant="permanent" className={classes.drawer}>
-    <Link to ="/Home"><Typography className="navhead">
-          VoteFromHome
-        </Typography></Link>
+      <Link to ="/Home"><Typography className="navhead">
+        <img className="rona" src ="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/1800x1200_virus_3d_render_red_03_other.jpg?resize=*:350px" alt="rona"></img>
+        VoteFromHome</Typography></Link>
       <List className="navlist">
         {itemsList.map((item, index) => {
           const { text, icon, onClick } = item;
