@@ -137,11 +137,12 @@ body {
     background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg");
     color: white;
     height: 100%;
-    font-size: medium;
-    font-weight: bold
+    font-size: 8px;
+    font-weight: bolder
 }
 .home{
-    color: white
+    color: white;
+    
 }
 
 .footer{
