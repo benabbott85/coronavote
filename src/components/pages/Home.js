@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../style.css"
+import Footer from "../footer"
 // import { AuthProvider } from "react-use-auth"
 
 
@@ -86,14 +87,19 @@ function Home (){
 
                 <Link to="/Profile"> <Button color="primary" id="signin">Sign In</Button></Link>
                 <br/>
-                <br/>
+                
                 <Link to="/Signup"><p id="register">Register</p></Link>
-                <br/>
+                
                 <Link to=""><p id="forgot">Forgot Password?</p></Link>
             </Form>
             </Col>
         </Row>
+        <br/>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <Footer/>
         </Container>
         
     )

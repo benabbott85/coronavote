@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Form, FormGroup, FormText, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
+import Footer from "../footer"
 // import Styles from "../../styles.css"
 
 
@@ -386,6 +387,13 @@ function Signup () {
     <Row>
     <Link to="/Verify"><Button color="primary" id="submit">Submit</Button></Link>
     </Row>
+    <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Footer/>
        </Container>
     )
 }

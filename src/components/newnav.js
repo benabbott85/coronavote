@@ -14,48 +14,60 @@ import HomeIcon from "@material-ui/icons/Home";
 import PersonIcon from "@material-ui/icons/Person";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import GroupIcon from '@material-ui/icons/Group';
-import { withRouter } from "react-router-dom";
+import Typography from '@material-ui/core/Typography';
+
+// import { createMuiTheme } from '@material-ui/core/styles';
+
+import { withRouter, Link } from "react-router-dom";
 // import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   drawer: {
     width: "150px",
-   
-   
      
   },
+  root: {
+    background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)"
+  }
   
 });
+
+
 
 const Drawer = props => {
   const { history } = props;
   const classes = useStyles();
+  
   const itemsList = [
     {
       text: "Home",
-      icon: <HomeIcon />,
+      icon: <HomeIcon className="home"/>,
       onClick: () => history.push("/Home")
     },
     {
       text: "Profile",
-      icon: <PersonIcon />,
+      icon: <PersonIcon  className="home"/>,
       onClick: () => history.push("/Profile")
     },
     {
       text: "Register",
-      icon: <GroupIcon />,
+      icon: <GroupIcon className="home"/>,
       onClick: () => history.push("/Signup")
     },
     {
         text: "Verify",
-        icon: <VerifiedUserIcon />,
+        icon: <VerifiedUserIcon className="home"/>,
         onClick: () => history.push("/Verify")
       }
   ];
   return (
       <div className="newnav">
+        
     <MUIDrawer variant="permanent" className={classes.drawer}>
-      <List>
+    <Link to ="/Home"><Typography className="navhead">
+          VoteFromHome
+        </Typography></Link>
+      <List className="navlist">
         {itemsList.map((item, index) => {
           const { text, icon, onClick } = item;
           return (

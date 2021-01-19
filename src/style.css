@@ -83,7 +83,8 @@ body {
 }
 
 .jumbo{
-   background-image: url("https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg"); 
+   background-image: url("https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg");
+   height: 250px 
 }
 
 .profilepic{
@@ -123,6 +124,30 @@ body {
 
 #forgot{
     margin-left:10px
+}
+
+.navhead{
+    color:white;
+   text-align: center;
+   background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg")
+   
+}
+
+.navlist{
+    background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg");
+    color: white;
+    height: 100%;
+    font-size: medium;
+    font-weight: bold
+}
+.home{
+    color: white
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    margin-bottom: -100px
 }
 
 

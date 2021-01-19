@@ -9,6 +9,7 @@ import {
   Col,
   Button,
 } from "reactstrap";
+import Footer from "../footer"
 // import { Link } from "react-router-dom";
 
 
@@ -72,6 +73,11 @@ function Profile() {
       <br></br>
       <br></br>
       <Button color="primary">Lets Vote!</Button>
+
+      <br/>
+        <br/>
+        <br/>
+        <Footer/>
     </Container>
   );
 }
