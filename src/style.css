@@ -158,5 +158,27 @@ body {
     margin-right: 10px
 }
 
+.forgot {
+    color: white;
+    margin-left: 400px;
+}
+
+.forgotpass{
+    color: white;
+    margin-top: 200px;
+    
+}
+
+.forgotSubmit{
+    background-color: blue;
+    color: white;
+    margin-left: 530px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
 
 

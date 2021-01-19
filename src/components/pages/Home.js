@@ -17,7 +17,7 @@ function Home (){
         <Container>
             <Jumbotron className="jumbo">
         <Row>
-        <h1 className="welcome"> Welcome to VoteFromHome! The only way to vote in National, State and Local Level Elections from Home</h1>
+        <h1 className="welcome"> Welcome to VoteFromHome.com! The only way to vote in National, State and Local Level Elections from Home</h1>
         </Row>
         <br></br>
         <Row>
@@ -90,7 +90,7 @@ function Home (){
                 
                 <Link to="/Signup"><p id="register">Register</p></Link>
                 
-                <Link to=""><p id="forgot">Forgot Password?</p></Link>
+                <Link to="/Forgot"><p id="forgot">Forgot Password?</p></Link>
             </Form>
             </Col>
         </Row>
