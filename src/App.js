@@ -8,6 +8,7 @@ import Signup from "./components/pages/Signup";
 import Verify from "./components/pages/Verify";
 import Profile from "./components/pages/Profile";
 import Newnav from "./components/newnav";
+import Forgot from "./components/pages/Forgot"
 import { makeStyles } from "@material-ui/core/styles";
 // import logo from './logo.svg';
 // import './App.css';
@@ -33,6 +34,7 @@ function App() {
        <Route exact path ="/Signup" component ={Signup}/>
        <Route exact path = "/Verify" component = {Verify}/>
        <Route exact path = "/Profile" component ={Profile}/>
+       <Route exact path ="/Forgot" component={Forgot}/>
        </Switch>
      </div>
    </Router>
