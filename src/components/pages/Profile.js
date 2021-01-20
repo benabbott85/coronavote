@@ -49,17 +49,20 @@ function Profile() {
         <Col md={3} className="verUser">
           Date of Birth:
         </Col>
-        <Col md={3} className="verUser">
-          Party Affiliation:
-        </Col>
+        
       </Row>
       <br></br>
       <br></br>
       <br></br>
       <Row>
         <Col md={3}className="verUser">Voting History</Col>
+        <Col md={3} className="verUser">
+          Party Affiliation:
+        </Col>
       </Row>
       <br></br>
+      <br/>
+      <br/>
       <Row>
         
         <Col md={3} className="verUser">
@@ -71,11 +74,9 @@ function Profile() {
       </Row>
       <br></br>
       <br></br>
-      <br></br>
       <Button color="primary">Lets Vote!</Button>
 
       <br/>
-        <br/>
         <br/>
         <Footer/>
     </Container>
