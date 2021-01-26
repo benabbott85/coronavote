@@ -14,6 +14,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import PersonIcon from "@material-ui/icons/Person";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import GroupIcon from '@material-ui/icons/Group';
+import HowToVoteIcon from '@material-ui/icons/HowToVote';
 import Typography from '@material-ui/core/Typography';
 import { withRouter,Link } from "react-router-dom";
 // import { red } from "@material-ui/core/colors";
@@ -49,6 +50,11 @@ const Drawer = props => {
         text: "Verify",
         icon: <VerifiedUserIcon className="home"/>,
         onClick: () => history.push("/Verify")
+      },
+      {
+        text: "Vote",
+        icon: <HowToVoteIcon className="home"/>,
+        onClick: () => history.push("/vote")
       }
   ];
   return (
