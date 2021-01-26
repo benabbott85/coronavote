@@ -280,8 +280,8 @@ function Signup () {
                             <option>Select</option>
                             <option>AL</option>
                             <option>AK</option>
-                            <option>AZ</option>
                             <option>AR</option>
+                            <option>AZ</option>
                             <option>CA</option>
                             <option>CO</option>
                             <option>CT</option>
@@ -296,13 +296,13 @@ function Signup () {
                             <option>KS</option>
                             <option>KY</option>
                             <option>LA</option>
-                            <option>ME</option>
-                            <option>MD</option>
                             <option>MA</option>
+                            <option>MD</option>
+                            <option>ME</option>
                             <option>MI</option>
                             <option>MN</option>
-                            <option>MS</option>
                             <option>MO</option>
+                            <option>MS</option>
                             <option>MT</option>
                             <option>NE</option>
                             <option>NV</option>
