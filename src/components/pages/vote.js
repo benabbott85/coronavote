@@ -41,14 +41,14 @@ function vote (){
                             <option>MO</option>
                             <option>MS</option>
                             <option>MT</option>
-                            <option>NC</option>
-                            <option>ND</option>
                             <option>NE</option>
+                            <option>NV</option>
                             <option>NH</option>
                             <option>NJ</option>
                             <option>NM</option>
                             <option>NY</option>
-                            <option>NV</option>
+                            <option>NC</option>
+                            <option>ND</option>
                             <option>OH</option>
                             <option>OK</option>
                             <option>OR</option>

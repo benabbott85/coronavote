@@ -327,7 +327,7 @@ function Signup () {
                             <option>WA</option>
                             <option>WV</option>
                             <option>WI</option>
-                            <option>WY</option>
+                            <option>WY</option> 
 
                         </Input>
                     </FormGroup>
