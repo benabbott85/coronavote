@@ -1,7 +1,7 @@
 import React from "react";
 import  { Container, Row, Col, Button} from "reactstrap";
 import { Link } from "react-router-dom";
-import Footer from "../footer"
+// import Footer from "../footer"
 
 
 
@@ -66,7 +66,7 @@ function Verify (){
             </Row>
             <br></br>
             <br></br>
-            <Link to="/Home"><Button color="primary">All Correct Lets Vote!</Button></Link>
+            <Link to="/Home"><Button color="primary" id="correctBtn">All Correct Lets Vote!</Button></Link>
             <br/>
         <br/>
         <br/>
@@ -81,7 +81,7 @@ function Verify (){
         <br/>
         <br/>
 
-        <Footer/>
+        {/* <Footer/> */}
 
         </Container>
     )

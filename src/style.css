@@ -115,7 +115,10 @@ body {
 }
 
 #signin{
-    margin-left: 10px
+    margin-left: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 #register{
@@ -176,6 +179,50 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+}
+
+.natpres{
+    color: white
+}
+
+.natsenate{
+    color: white;
+}
+
+.nathouse{
+    color: white;
+}
+
+#finalvote{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+ #correctBtn{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+ }
+
+ #initbtn{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+     
+ }
+
+ #initbtn2{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;  
+ }
+
+ #initbtn:active{
+     transform: rotate(45deg)
+ }
+
+ #initbtn2:active{
+    transform: rotate(45deg)
 }
 
 

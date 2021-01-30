@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../footer"
+// import Footer from "../footer"
 import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button } from "reactstrap";
 
 function forgot (){
@@ -39,7 +39,7 @@ function forgot (){
 <br/>
 <br/>
 <br/>
-<Footer className="footer" />
+{/* <Footer className="footer" /> */}
 </div>
 
     )

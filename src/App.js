@@ -10,6 +10,7 @@ import Profile from "./components/pages/Profile";
 import Newnav from "./components/newnav";
 import Forgot from "./components/pages/Forgot";
 import Vote from "./components/pages/vote"
+import Footer from "./components/footer"
 import { makeStyles } from "@material-ui/core/styles";
 // import logo from './logo.svg';
 // import './App.css';
@@ -25,7 +26,7 @@ const useStyles = makeStyles({
 function App() {
   const classes = useStyles();
   return (
-    
+    <div>
    <Router>
      <div className={classes.container}>
        {/* <NavTabs/> */}
@@ -41,6 +42,8 @@ function App() {
      </div>
    </Router>
    
+<Footer/>
+   </div>
 
   );
 }

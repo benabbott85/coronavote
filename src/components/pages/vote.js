@@ -1,18 +1,18 @@
 import React from "react";
 import {Container, Row, Col, Form, FormGroup, Input, Label, Button } from "reactstrap";
-
+import Footer from "../footer"
 function vote (){
     return (
         <Container>
             <Row>
-        <h1>Vote Page</h1>
+        <h1 className="verUser">Vote Page</h1>
         </Row>
         <br/>
         <Row>
             <Col md={4}>
                 <Form>
                     <FormGroup>
-                        <Label for ="stateselect" className="stateselect">State Where You're Registered to Vote</Label>
+                        <Label for ="stateselect" className="verUser">State Where You're Registered to Vote</Label>
                         <Input type="select" name="select" id="votestate" placeholder="State of Residence">
                             <option>Select</option>
                             <option>AL</option>
@@ -69,6 +69,19 @@ function vote (){
                     </FormGroup>
                 </Form>
             </Col>
+            <Col md={4}>
+                <Form>
+                    <FormGroup>
+                    <Label for ="stateselect" className="verUser">House District</Label>
+                        <Input Input type="select" name="select" id="votestate" placeholder="State of Residence">
+
+                        </Input>
+                            
+                    </FormGroup>
+                </Form>
+
+            </Col>
+
         </Row>
 
 <br/>
@@ -114,8 +127,33 @@ function vote (){
         </Col>
         </Row>
         <br/>
-        <Button color="secondary" id="finalvote">Submit my vote</Button>
+        <Row>
+           <p className="verUser">Below you will find the ballot initatives on the ballot in your state</p> 
+        </Row>
+        <br/>
+        <Row>
+            <Col md={4}>
+                <Form>
+                    <FormGroup>
+                        <Input type="select" className="ballotinit">
+                            <option>Select</option>
+                            <option >Initative 420</option>
+                        </Input>
+                    </FormGroup>
+                </Form>
+            </Col>
+            </Row>
+            <Button type="radio" color="primary" id="initbtn">Yes</Button>
+            <br/>
+            <br/>
+            <Button type="radio" color="primary" id="initbtn2">No</Button>
+        <br/>
+        <br/>
+        <Button color="primary" id="finalvote">Submit my vote</Button>
+        <br/>
+        
         </Container>
+        
     )
 }
 

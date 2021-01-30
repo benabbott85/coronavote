@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../style.css"
-import Footer from "../footer"
+// import Footer from "../footer"
 // import { AuthProvider } from "react-use-auth"
 
 
@@ -21,7 +21,7 @@ function Home (){
         </Row>
         <br></br>
         <Row>
-            <p className="if">Please sign in if you have already created an account otherwise click on the signup button and create an account</p>
+            <p className="if">Please sign in if you have already created an account otherwise click on register and create an account</p>
         </Row>
         </Jumbotron>
         < div className="form">
@@ -99,7 +99,7 @@ function Home (){
         <br/>
         <br/>
         <br/>
-        <Footer/>
+        {/* <Footer/> */}
         </Container>
         
     )

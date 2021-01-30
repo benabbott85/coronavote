@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Form, FormGroup, FormText, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
-import Footer from "../footer"
+// import Footer from "../footer"
 // import Styles from "../../styles.css"
 
 
@@ -393,7 +393,7 @@ function Signup () {
         <br/>
         <br/>
         <br/>
-        <Footer/>
+        {/* <Footer/> */}
        </Container>
     )
 }
