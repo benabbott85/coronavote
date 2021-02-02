@@ -119,6 +119,11 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+
+}
+
+#signin:hover{
+    transform: rotate(25deg)
 }
 
 #register{
@@ -197,6 +202,10 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+}
+
+#finalvote:active{
+    transform: rotate(45deg)
 }
  #correctBtn{
     border-style: solid;

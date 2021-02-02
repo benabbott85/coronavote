@@ -15,56 +15,56 @@ function vote (){
                         <Label for ="stateselect" className="verUser">State Where You're Registered to Vote</Label>
                         <Input type="select" name="select" id="votestate" placeholder="State of Residence">
                             <option>Select</option>
-                            <option>AL</option>
-                            <option>AK</option>
-                            <option>AR</option>
-                            <option>AZ</option>
-                            <option>CA</option>
-                            <option>CO</option>
-                            <option>CT</option>
-                            <option>DE</option>
-                            <option>FL</option>
-                            <option>GA</option>
-                            <option>HI</option>
-                            <option>ID</option>
-                            <option>IL</option>
-                            <option>IN</option>
-                            <option>IA</option>
-                            <option>KS</option>
-                            <option>KY</option>
-                            <option>LA</option>
-                            <option>MA</option>
-                            <option>MD</option>
-                            <option>ME</option>
-                            <option>MI</option>
-                            <option>MN</option>
-                            <option>MO</option>
-                            <option>MS</option>
-                            <option>MT</option>
-                            <option>NE</option>
-                            <option>NV</option>
-                            <option>NH</option>
-                            <option>NJ</option>
-                            <option>NM</option>
-                            <option>NY</option>
-                            <option>NC</option>
-                            <option>ND</option>
-                            <option>OH</option>
-                            <option>OK</option>
-                            <option>OR</option>
-                            <option>PA</option>
-                            <option>RI</option>
-                            <option>SC</option>
-                            <option>SD</option>
-                            <option>TN</option>
-                            <option>TX</option>
-                            <option>UT</option>
-                            <option>VT</option>
-                            <option>VA</option>
-                            <option>WA</option>
-                            <option>WV</option>
-                            <option>WI</option>
-                            <option>WY</option>   
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>Arkansas</option>
+                            <option>Arizona</option>
+                            <option>California</option>
+                            <option>Colorado</option>
+                            <option>Connecticut</option>
+                            <option>Delaware</option>
+                            <option>Florida</option>
+                            <option>Georgia</option>
+                            <option>Hawaii</option>
+                            <option>Idaho</option>
+                            <option>Illinois</option>
+                            <option>Indiana</option>
+                            <option>Iowa</option>
+                            <option>Kansas</option>
+                            <option>Kentucky</option>
+                            <option>Louisiana</option>
+                            <option>Massachusetts</option>
+                            <option>Maryland</option>
+                            <option>Maine</option>
+                            <option>Michigan</option>
+                            <option>Minnesota</option>
+                            <option>Missouri</option>
+                            <option>Mississippi</option>
+                            <option>Montana</option>
+                            <option>Nebraska</option>
+                            <option>Nevada</option>
+                            <option>New Hampshire</option>
+                            <option>New Jersey</option>
+                            <option>New Mexico</option>
+                            <option>New York</option>
+                            <option>North Carolina</option>
+                            <option>North Dakota</option>
+                            <option>Ohio</option>
+                            <option>Oklahoma</option>
+                            <option>Oregon</option>
+                            <option>Pennsylvania</option>
+                            <option>Rhode Island</option>
+                            <option>South Carolina</option>
+                            <option>South Dakota</option>
+                            <option>Tennessee</option>
+                            <option>Texas</option>
+                            <option>Utah</option>
+                            <option>Vermont</option>
+                            <option>Virginia</option>
+                            <option>Washington</option>
+                            <option>West Virginia</option>
+                            <option>Wisconsin</option>
+                            <option>Wyoming</option>   
                         </Input>
                     </FormGroup>
                 </Form>
@@ -142,16 +142,19 @@ function vote (){
                     </FormGroup>
                 </Form>
             </Col>
+           
             </Row>
+            <br/>
             <Button type="radio" color="primary" id="initbtn">Yes</Button>
             <br/>
             <br/>
             <Button type="radio" color="primary" id="initbtn2">No</Button>
         <br/>
         <br/>
+        <br/>
         <Button color="primary" id="finalvote">Submit my vote</Button>
         <br/>
-        
+    
         </Container>
         
     )
