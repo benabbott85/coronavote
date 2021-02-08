@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button } from "reactstrap";
 import { Link } from "react-router-dom";
-import "../../style.css"
+import "../../style.css";
+import Google from "../googlelogin"; 
 // import Footer from "../footer"
 // import { AuthProvider } from "react-use-auth"
 
@@ -87,7 +88,9 @@ function Home (){
 
                 <Link to="/Profile"> <Button color="primary" id="signin">Sign In</Button></Link>
                 <br/>
-                
+                <br/>
+                <Google className="google"/>
+                <br/>
                 <Link to="/Signup"><p id="register">Register</p></Link>
                 
                 <Link to="/Forgot"><p id="forgot">Forgot Password?</p></Link>

@@ -122,6 +122,10 @@ body {
     border-width: 2px;
 
 }
+.google{
+    margin-left: 10px;
+    border: black solid 2px;
+}
 
 #signin:hover{
     transform: rotate(25deg)
