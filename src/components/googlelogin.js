@@ -1,5 +1,6 @@
 import React, { Component} from "react";
 import GoogleLogin from "react-google-login"
+
 export class App extends Component {
     responseGoogle=(response)=> {
         console.log(response);
@@ -16,7 +17,14 @@ render (){
            cookiePolicy={'single_host_origin'} 
             
             />
+        {/* <GoogleLogout
+        clientId="1031730455048-2g7ag9b7gkf3a0r943s8s54etmp50nfl.apps.googleusercontent.com"
+        buttonText="Logout"
+        onLogoutSuccess={logout}
+        >
 
+        </GoogleLogout> */}
+        
 
 
         </div>

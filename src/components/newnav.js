@@ -15,8 +15,10 @@ import PersonIcon from "@material-ui/icons/Person";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import GroupIcon from '@material-ui/icons/Group';
 import HowToVoteIcon from '@material-ui/icons/HowToVote';
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import Typography from '@material-ui/core/Typography';
 import { withRouter,Link } from "react-router-dom";
+import GoogleLogout from "./googlelogout"
 // import { red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
@@ -56,6 +58,11 @@ const Drawer = props => {
         icon: <HowToVoteIcon className="home"/>,
         onClick: () => history.push("/Vote")
       },
+      {
+        text: "",
+        icon: <GoogleLogout className="home"/>,
+        onClick: () => history.push("")
+      }
   ];
   return (
       <div className="newnav">
