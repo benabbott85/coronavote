@@ -18,7 +18,8 @@ body {
 
 .verheader{
     color: white;
-    margin-left: 80px
+    margin-left: 80px;
+
 }
 
 .verUser{
@@ -127,7 +128,8 @@ body {
 }
 
 #register{
-    margin-left: 10px
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 #forgot{

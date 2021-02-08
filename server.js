@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 // app.use(passport.initialize());
 // app.use(passport.session());
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/guildAssistant");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/coronavote");
 
 app.get("*", (req,res) => {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
