@@ -61,7 +61,7 @@ const Drawer = props => {
       {
         text: "",
         icon: <GoogleLogout className="home"/>,
-        onClick: () => history.push("")
+        onClick: () => history.push("/logout")
       }
   ];
   return (

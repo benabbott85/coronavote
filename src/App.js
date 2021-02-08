@@ -9,7 +9,8 @@ import Verify from "./components/pages/Verify";
 import Profile from "./components/pages/Profile";
 import Newnav from "./components/newnav";
 import Forgot from "./components/pages/Forgot";
-import Vote from "./components/pages/vote"
+import Vote from "./components/pages/vote";
+import Logout from "./components/pages/logout"
 import Footer from "./components/footer"
 import { makeStyles } from "@material-ui/core/styles";
 // import logo from './logo.svg';
@@ -38,6 +39,7 @@ function App() {
        <Route exact path = "/Profile" component ={Profile}/>
        <Route exact path ="/Forgot" component={Forgot}/>
        <Route exact path ="/Vote" component={Vote}/>
+       <Route exact path ="/Logout" component={Logout}/>
        </Switch>
      </div>
    </Router>

@@ -89,7 +89,7 @@ function Home (){
                 <Link to="/Profile"> <Button color="primary" id="signin">Sign In</Button></Link>
                 <br/>
                 <br/>
-                <Google className="google"/>
+                <Link to ="/vote"><Google className="google"/></Link>
                 <br/>
                 <Link to="/Signup"><p id="register">Register</p></Link>
                 
