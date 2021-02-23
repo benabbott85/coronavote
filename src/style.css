@@ -117,9 +117,7 @@ body {
 
 #signin{
     margin-left: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border: black solid 2px;
 
 }
 .google{
@@ -143,13 +141,16 @@ body {
 .navhead{
     color:white;
    text-align: center;
-   background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg");
+   /* background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg"); */
+   background-color: grey;
    padding: 0 15px 0 15px;
    
 }
 
 .navlist{
-    background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg");
+    /* background-image: url("https://blog.metrostorage.com/wp-content/uploads/2015/06/FlagDay.jpg");
+     */
+     background-color: gray;
     color: white;
     height: 100%;
     font-size: 8px;
@@ -174,12 +175,13 @@ body {
 
 .forgot {
     color: white;
-    margin-left: 400px;
+    margin-left: 100px;
 }
 
 .forgotpass{
     color: white;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 400px;
     
 }
 
@@ -187,9 +189,7 @@ body {
     background-color: blue;
     color: white;
     margin-left: 530px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border: black solid 2px;
 }
 
 .natpres{
@@ -205,31 +205,24 @@ body {
 }
 
 #finalvote{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border: black solid 2px;
+   
 }
 
 #finalvote:active{
     transform: rotate(45deg)
 }
  #correctBtn{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px; 
+    border: black solid 2px;
  }
 
  #initbtn{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px; 
+    border: black solid 2px;
      
  }
 
  #initbtn2{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;  
+    border: black solid 2px;
  }
 
  #initbtn:active{

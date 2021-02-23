@@ -10,7 +10,7 @@ export default function Contact () {
     function sendEmail(e){
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_kl4edzx', e.target, 'user_a22uGxDKlju4sAPyBBnir')
+        emailjs.sendForm('service_2cdfh1k', 'template_kl4edzx', e.target, 'user_a22uGxDKlju4sAPyBBnir')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -20,9 +20,13 @@ export default function Contact () {
     }
 
     return(
+
+        
         <div>
+
+            <h1 className="forgotpass">Forgot Password</h1>
             < div className="containter">
-                <form onSubmit={sendEmail}>
+                <form className="forgot"onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
@@ -42,7 +46,13 @@ export default function Contact () {
                     </div>
                 </form>
             </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
+       
     )
 }
 
