@@ -5,7 +5,8 @@ function Input (props){
     return (
 <div className="input">
     <input type ="select" name="select">Presidential Election
-    <option>  </option> {props.name}
+    {/* <select name={this.state.name}></select> */}
+    {/* <option>  </option> {props.name} */}
 
     </input>
     

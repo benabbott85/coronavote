@@ -239,8 +239,10 @@ body {
 }
 
 #presinput{
-    color: white
+    color: white;
+    width: 150px;
 }
+
 
 
 

@@ -12,6 +12,7 @@ import Forgot from "./components/pages/Forgot";
 import Vote from "./components/pages/vote";
 import Logout from "./components/pages/logout"
 import Footer from "./components/footer"
+
 import { makeStyles } from "@material-ui/core/styles";
 // import logo from './logo.svg';
 // import './App.css';
@@ -45,6 +46,7 @@ function App() {
    </Router>
    
 <Footer/>
+
    </div>
 
   );

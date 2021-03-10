@@ -126,7 +126,7 @@ class Vote extends Component {
                   <presInput>
                       <br/>
                       {/* <br/> */}
-                   <option id= "presinput">{pres.name}</option> 
+                   <option value ="" id= "presinput">{pres.name}</option> 
                      {/* <option name= {pres.name}></option> */}
                     </presInput>
                 ))}
