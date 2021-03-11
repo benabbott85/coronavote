@@ -5,7 +5,7 @@ import "../stylesheets/auth.css"
 const LoginButton =  () => {
     
     const { loginWithRedirect } = useAuth0();
-    return (<button  onClick={() => loginWithRedirect()} id ="auth"> LogIn </button>
+    return (<button  onClick={() => loginWithRedirect()} id ="auth"> Log In </button>
     )
 }
 
