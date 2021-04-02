@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, FormGroup, Jumbotron, Label, Input, Button }
 import { Link } from "react-router-dom";
 import "../../style.css";
 import Google from "../googlelogin"; 
+import Facebook from "../fbooklogin"
 import LoginBtn from "../loginButton"
 // import Footer from "../footer"
 // import { AuthProvider } from "react-use-auth"
@@ -90,7 +91,11 @@ function Home (){
                  <LoginBtn className ="auth"/>
                 <br/>
                 <br/>
+                
                 <Link to ="/vote"><Google className="google"/></Link>
+                <br/>
+                <Link to ="/vote"><Facebook className="google"/></Link>
+                
                 <br/>
                 <Link to="/Signup"><p id="register">Register</p></Link>
                 
