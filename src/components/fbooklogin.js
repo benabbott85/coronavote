@@ -16,6 +16,7 @@ export default class Example extends Component {
       <FacebookProvider appId="781259279181951">
         <LoginButton
         className="flogin"
+       
           scope="email"
           onCompleted={this.handleResponse}
           onError={this.handleError}
