@@ -22,7 +22,7 @@ export default class Example extends Component {
           onError={this.handleError}
          
         >
-          <span>Facebook Login</span>
+          <span>Facebook</span>
         </LoginButton>
       </FacebookProvider>
     );

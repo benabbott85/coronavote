@@ -34,6 +34,7 @@ function App() {
        {/* <NavTabs/> */}
        <Newnav/>
        <Switch>
+       <Route exact path ="/" component={Home}/>
        <Route exact path ="/Home" component={Home}/>
        <Route exact path ="/Signup" component ={Signup}/>
        <Route exact path = "/Verify" component = {Verify}/>
